@@ -1,0 +1,138 @@
+.news__container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 33%;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 8px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 8px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 8px 6px rgba(34, 60, 80, 0.2);
+}
+
+.news__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.news__head_info {
+    width: 100%;
+    padding: 10px;
+}
+
+.news__title {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+
+.news__head_img {
+    height: 235px;
+}
+
+.news__head_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.news__body_text {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.news__body_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news__date {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news__full {
+    width: 160px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff8906;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.short {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+}
+
+/* full content */
+.news__item:nth-child(16) {
+    display: none;
+}
+.full__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.full__content_title {
+    font-size: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.full__content_topic {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.full__content_img {
+    width: 60%;
+    height: auto;
+}
+
+.full__content_text {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    width: 60%;
+    margin-top: 20px;
+}
