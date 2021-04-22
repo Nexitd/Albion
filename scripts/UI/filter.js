@@ -31,7 +31,8 @@ const filterCards = () => {
                         }
                     }
                 });
-
+                
+                newsBlock.innerHTML = '';
                 for (let i = 0; i < filteredBlock.length; i++) {
                     newsBlock.append(filteredBlock[i]);
                 }
