@@ -18,7 +18,7 @@ function fullNews(full) {
                                 <h3 class="full__content_title">${el.title}</h3>
                                 <p class="full__content_topic">${el.topic} ● ${el.date}</p>
                                 <img src=${el.img} alt="" class="full__content_img">
-                                <p class="full__content_text">${el.body}</p>
+                                <div class="full__content_text">${el.body}</div>
                            </div>
                         `;
 

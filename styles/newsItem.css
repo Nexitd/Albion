@@ -34,7 +34,7 @@
 
 .news__head_info {
     width: 100%;
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .news__title {
@@ -104,6 +104,7 @@
 .news__item:nth-child(16) {
     display: none;
 }
+
 .full__content {
     display: flex;
     flex-direction: column;
@@ -112,16 +113,17 @@
 }
 
 .full__content_title {
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
-    line-height: 45px;
+    line-height: 30px;
+    width: 60%;
 }
 
 .full__content_topic {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #000;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .full__content_img {
@@ -135,4 +137,5 @@
     line-height: 24px;
     width: 60%;
     margin-top: 20px;
+    white-space: pre-wrap;
 }
